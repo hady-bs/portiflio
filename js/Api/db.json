@@ -1,0 +1,92 @@
+{
+  "skills": [
+    { "name": "html", "rank": "100%" },
+    { "name": "CSS", "rank": "100%" },
+    { "name": "js", "rank": "80%" },
+    { "name": "React.js", "rank": "90%" },
+    { "name": "Bootstrap", "rank": "100%" },
+    { "name": "Sass", "rank": "50%" }
+  ],
+  "otherSkills": [
+    "cmd",
+    "linux",
+    "photoshop Basic",
+    "C++",
+    "C#",
+    "Python",
+    "Pascal",
+    "fetch + axios API",
+    "framer-motion library React",
+    "Routing"
+  ],
+  "languages": [{ "Arabic": "100%" }, { "English": "60%" }],
+  "Education": [
+    { "name": "Scientific Certificate", "date": "2017-2018", "done": true },
+    {
+      "name": "Damascuse University(Math)",
+      "date": "2018-present",
+      "done": false
+    }
+  ],
+  "projects": [
+    {
+      "img": "landing-bg.jpg",
+      "name": "land page",
+      "languages": ["HTML", "CSS"],
+      "description": "Responsive Design without bootstrap",
+      "link": "https://hady-bs.github.io/template_one/"
+    },
+    {
+      "img": "images.png",
+      "name": "XO Game",
+      "languages": ["HTML", "CSS", "JS"],
+      "description": "simple Game with Basic front-end",
+      "link": "https://hady-bs.github.io/XO_Game/"
+    },
+    {
+      "img": "vecteezy_volunteers-packing-donation-boxes_6901865.jpg",
+      "name": "simple page",
+      "languages": ["HTML", "CSS"],
+      "description": "Responsive Design with grid System",
+      "link": "https://hady-bs.github.io/landpageTwo/"
+    },
+    {
+      "img": "laptop.png",
+      "name": "tempBootstrap",
+      "languages": ["HTML", "CSS"],
+      "description": "Responsive Design with bootstratp",
+      "link": "https://hady-bs.github.io/tempBootstrap/"
+    }
+  ],
+  "Contact": [
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/abdalhady.alboshy",
+      "color": "rgb(0, 86, 156)"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/hady-bs",
+      "color": "rgb(37, 37, 37)"
+    },
+    {
+      "name": "whatsapp",
+      "link": "https://api.whatsapp.com/send?phone=963930085744",
+      "color": "rgb(52, 143, 40)"
+    },
+    {
+      "name": "codepen",
+      "link": "https://codepen.io/Abd_Alhady_Alboshy",
+      "color": "black"
+    },
+    {
+      "name": "email",
+      "link": "mailto:aaa88484@gmail.com",
+      "color": "rgb(216, 0, 0)"
+    },
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/hadyboshy/?fbclid=IwAR0m_vTf_viq0ixWKxRKHe8dT_rqtQFfTKaL7dnHTem5k_fXBCHqzNY9MVs"
+    }
+  ]
+}

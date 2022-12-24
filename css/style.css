@@ -1,0 +1,237 @@
+:root {
+  --dark: #11353e;
+  --light: #3dcbea;
+  --white: #fff;
+  --green: #a9ae5b;
+  --shadow: #dcdcdc;
+  --Space: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  margin-inline: auto;
+  padding-inline: 10px;
+}
+a:active,
+a:visited {
+  color: var(--dark);
+}
+nav {
+  width: 50px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px var(--shadow);
+  z-index: 10000;
+}
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  font-size: 30px;
+}
+nav ul li a {
+  color: var(--dark);
+}
+nav ul li a.active {
+  color: var(--light);
+}
+
+body section {
+  margin-left: 50px;
+  height: 100vh;
+  width: 100%;
+}
+body section .container {
+  height: 100%;
+}
+/* start Home */
+#home .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#home .container .hello {
+  padding-top: var(--Space);
+  width: 40%;
+}
+#home .container img {
+  width: 40%;
+  display: block;
+}
+#home .container .hello h1 {
+  color: var(--dark);
+
+  font-size: 40px;
+}
+#home .container .hello p {
+  color: var(--green);
+  font-size: 25px;
+}
+/* End Homs */
+/* Start Skills */
+
+#Skills h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--dark);
+  padding-block: var(--Space);
+}
+#Skills h2 {
+  text-align: center;
+  color: var(--dark);
+  padding-block: var(--Space);
+}
+#Skills h3 {
+  color: var(--dark);
+  text-align: center;
+  padding-block: var(--Space);
+}
+#Skills .edu {
+  height: auto;
+}
+#Skills .main {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-block: 20px;
+}
+#Skills .other {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#Skills .container .skill {
+  background-color: var(--shadow);
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+  z-index: 800;
+  outline: 5px solid var(--shadow);
+}
+#Skills .container .skill::before {
+  content: "";
+  width: 100%;
+  height: var(--range);
+  transform: rotate(180deg);
+  bottom: 0;
+  left: 0;
+  z-index: 900;
+  position: absolute;
+
+  background-color: var(--light);
+}
+
+#Skills .container .skill .skill-name {
+  position: relative;
+  color: var(--dark);
+  z-index: 1000;
+}
+#Skills .other-skills {
+  background-color: var(--shadow);
+  border-radius: 10px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--green);
+  padding: 5px;
+  font-size: 10px;
+}
+
+#Skills .edu {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#Skills .edu .education-item {
+  box-shadow: -5px 5px 5px var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  transition: 0.3s;
+}
+#Skills .edu .education-item:hover {
+  transform: scale(1.1);
+}
+#Skills .edu .education-date {
+  font-size: 14px;
+  padding-block: 5px;
+}
+.undone {
+  color: var(--white);
+  background-color: var(--light);
+}
+.done {
+  color: var(--white);
+  background-color: var(--green);
+}
+/* End Skills */
+/* Start projects */
+
+#projects h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-block: var(--Space);
+  color: var(--dark);
+}
+#projects .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+/* End projects */
+
+#contactMe .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-inline: auto;
+}
+#projects .container .col-sm-2 {
+  transition: 0.5s;
+  padding: 10px;
+  border-radius: 5px;
+}
+#projects .container .col-sm-2:hover {
+  box-shadow: 0px 5px 10px #999;
+}
+#projects .container .col-sm-2 img {
+  width: 100%;
+  height: 200px;
+}
+#projects .container .col-sm-2 .header {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--green);
+  padding-top: 20px;
+}
