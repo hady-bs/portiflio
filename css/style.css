@@ -59,6 +59,7 @@ body section {
   margin-left: 50px;
   height: 100vh;
   width: 100%;
+  padding-bottom:50px;
 }
 body section .container {
   height: 100%;
