@@ -1,5 +1,7 @@
 @media (max-width: 1250px) {
- 
+ #skills{
+  margin-bottom:100px;
+ }
   .container {
     width: 1000px;
     text-align: center;
