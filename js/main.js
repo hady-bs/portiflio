@@ -128,7 +128,7 @@ function printProjectMe(data) {
     card.className = "col-sm-2";
     let cardImg = document.createElement("img");
     cardImg.className = "card-image-top";
-    cardImg.src = "/" + data[i].img;
+    cardImg.src = "./" + data[i].img;
     let languages = document.createElement("div");
     languages.className = "lang";
     languages.innerHTML = data[i].languages.toString();
