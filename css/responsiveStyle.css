@@ -61,6 +61,6 @@
     padding-block: 10px;
     height: calc(100vh - 50px);
     width: 100%;
-    overflow:scroll;
+    margin-bottom:100px;
   }
 }
