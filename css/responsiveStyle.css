@@ -55,7 +55,7 @@
 
   #contactMe .container {
     flex-direction: column;
-    gap:10px;
+    gap:50px;
   }
   body section {
     margin-left: 0;
