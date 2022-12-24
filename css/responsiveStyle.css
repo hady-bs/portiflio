@@ -1,4 +1,7 @@
 @media (max-width: 1250px) {
+  body{
+    flex-direction: column-reverse;
+  }
   .container {
     width: 1000px;
     text-align: center;
