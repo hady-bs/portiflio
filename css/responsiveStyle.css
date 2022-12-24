@@ -18,14 +18,14 @@
   .container {
     width: 850px;
     margin-inline: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 900px) {
   .container {
     width: 600px;
     margin-inline: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
  
 }
@@ -33,7 +33,7 @@
   .container {
     width: 100%;
     margin-inline: auto;
-    margin-bottom: 50px;
+    margin-bottom:100px;
   }
  
 }
