@@ -54,9 +54,8 @@
   }
 
   #contactMe .container {
-    flex-direction: column;
-    gap:50px;
-  }
+    flex-direction: column-reverse;
+ }
   body section {
     margin-left: 0;
     padding-block: 10px;
