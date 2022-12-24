@@ -27,9 +27,7 @@
     margin-inline: auto;
     margin-bottom: 50px;
   }
-  section{
-    margin-bottom:50px;
-  }
+ 
 }
 @media (max-width: 676px) {
   .container {
@@ -37,9 +35,7 @@
     margin-inline: auto;
     margin-bottom: 50px;
   }
-  section{
-    margin-bottom:50px;
-  }
+ 
 }
 @media (max-width: 676px) {
   nav {
@@ -65,5 +61,6 @@
     padding-block: 10px;
     height: calc(100vh - 50px);
     width: 100%;
+    overflow:scroll;
   }
 }
