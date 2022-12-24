@@ -27,12 +27,18 @@
     margin-inline: auto;
     margin-bottom: 50px;
   }
+  section{
+    margin-bottom:50px;
+  }
 }
 @media (max-width: 676px) {
   .container {
     width: 100%;
     margin-inline: auto;
     margin-bottom: 50px;
+  }
+  section{
+    margin-bottom:50px;
   }
 }
 @media (max-width: 676px) {
