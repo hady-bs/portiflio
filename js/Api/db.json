@@ -56,7 +56,8 @@
       "languages": ["HTML", "CSS"],
       "description": "Responsive Design with bootstratp",
       "link": "https://hady-bs.github.io/tempBootstrap/"
-    },   {
+    },
+    {
       "img": "https://cdn1.dotesports.com/wp-content/uploads/2022/07/20145924/candy-crush-saga-header.jpg",
       "name": "candy crush",
       "languages": ["HTML", "CSS", "JS"],
