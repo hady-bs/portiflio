@@ -41,7 +41,7 @@ links.forEach((li) => {
   };
 });
 let mainSkillsElement = document.querySelector("#Skills .main ");
-fetch("./js/Api/db.json")
+fetch("./Api/db.json")
   .then((res) => res.json())
   .then((data) => {
     printMainSkills(data.skills);
