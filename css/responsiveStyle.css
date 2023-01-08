@@ -70,4 +70,7 @@
   .other {
     padding-bottom: 80px;
   }
+   #projects {
+    overflow: scroll;
+  }
 }
