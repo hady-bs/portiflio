@@ -30,6 +30,13 @@
   ],
   "projects": [
     {
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gpfDTP1whBUGX_LV3u1MF2UnQC2U9AuOsA&usqp=CAU",
+      "name":"toDoList",
+      "languages":["HTML","CSS","JS","React.js"],
+      "description":"simple App without Api",
+      "link":"https://hady-bs.github.io/to-do-list/"
+    },
+    {
       "img": "landing-bg.jpg",
       "name": "land page",
       "languages": ["HTML", "CSS"],
